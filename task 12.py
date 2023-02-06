@@ -9,3 +9,16 @@
 
 # 4 4 -> 2 2
 # 5 6 -> 2 3
+
+
+sumNumb= int(input('Введите сумму чисел: '))
+multiNumb = int(input('Введите произведение чисел: '))
+
+secondNum = 0
+
+for i in range(1000):
+    secondNum = sumNumb-i
+    if secondNum * i == multiNumb:
+        print(f" Первое число {i}, второе число {secondNum}") 
+    
+        
